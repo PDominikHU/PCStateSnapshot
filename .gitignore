@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated project data
+snapshots/*.json
+reports/*.json
+logs/*.log
+backups/*.zip
+
+# IDE / OS files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db

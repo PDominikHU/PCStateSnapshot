@@ -1,0 +1,14 @@
+{
+  "services": [
+    "Spooler",
+    "BITS",
+    "wuauserv"
+  ],
+  "collect_processes": true,
+  "collect_ports": true,
+  "collect_network": true,
+  "collect_system": true,
+  "process_ignore": [
+    "System Idle Process"
+  ]
+}
